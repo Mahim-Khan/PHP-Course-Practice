@@ -1,0 +1,163 @@
+.wraper{
+ width: 100%;
+ height: 100px;
+ background-color: #5DADE2;
+}
+
+.wraper .logo{
+ width: 20%;
+ height: 100px;
+ background-color: #52BE80;
+ float: left;
+}
+
+.wraper .banner{
+	width: 40%;
+	height: 100px;
+	background-color: #52BE80;
+	float: left;
+}
+.imgcon{
+	width: 98%;
+	height: 98%;
+	padding: 1px 1px 1px 1px;
+}
+.menu
+{
+	width: 100%;
+	height: 30px;
+	background-color: #52BE80;
+}
+.menu ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: blue;
+	background-color: #FEF5E7 ;
+	transition:1s;
+	border-radius:0px 0px 50px 50px;
+
+}
+.menu ul li:hover
+{
+	border-radius:50px 50px 0px 0px;
+	background-color: #884EA0;
+}
+.contant
+{
+	height: 1200px;
+	width: 100%;
+
+}
+.contant .left
+{
+	height: 1200px;
+	width: 30%;
+	background-color: #273746 ;
+	float: left;
+}
+
+.content .right
+{
+	height: 1200px;
+	width: 70%;
+	background-color: #273746 ;
+	float: left;
+}
+.right .one
+{
+	height: 200px;
+	width: 300px;
+	background-color: #2B2D42;
+	float: left;
+	margin: 10px 10px;
+	transform: rotate(1deg) scale(1);
+	transition: all 2s;
+	background-image: url(pexels.jpeg);
+	background-size: cover;
+}
+.right .one:hover
+{
+	transform: scale(.5);
+	transition: all 2s;
+}
+.right .two
+{
+	height: 200px;
+	width: 300px;
+	background-color: #2B2D42;
+	float: left;
+	margin: 10px 10px;
+	transform: rotate(1deg) scale(1);
+	transition: all 2s;
+	background-image: url(ul.jpg);
+	background-size: cover;
+}
+.right .two:hover
+{
+	transform: scale(.5);
+	transition: all 2s;
+}
+.right .three
+{
+	height: 200px;
+	width: 300px;
+	background-color: #5DADE2;
+	float: left;
+	margin: 10px 10px;
+	transform: rotate(1deg) scale(1);
+	transition: all 2s;
+	background-image: url(moon.jpg);
+	background-size: cover;
+}
+.right .three:hover
+{
+	transform: scale(.5);
+	transition: all 2s;
+}
+.right .four
+{
+	height: 200px;
+	width: 300px;
+	background-color: #5DADE2;
+	float: left;
+	margin: 10px 10px;
+	transform: rotate(1deg) scale(1);
+	transition: all 2s;
+	background-image: url(photo.jpg);
+	background-size: cover;
+}
+.right .four:hover
+{
+	transform: scale(.5);
+	transition: all 2s;
+}
+.right .five
+{
+	height: 200px;
+	width: 300px;
+	background-color: #5DADE2;
+	float: left;
+	margin: 10px 10px;
+	transform: rotate(1deg) scale(1);
+	transition: all 2s;
+	background-image: url(crop.jpg);
+	background-size: cover;
+}
+.right .five:hover
+{
+	transform: scale(.5);
+	transition: all 2s;
+}
+.foot
+{
+	height: 150px;
+	width: 100%;
+	background-color: #34495E
+}
